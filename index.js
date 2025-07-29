@@ -12,6 +12,9 @@ app.get('/login',(req,res)=>{
 app.get('/signup',(req,res)=>{
     res.send('Sign Up Page')
 })
+app.get('/about',(req,res)=>{
+    res.send('Sign Up Page')
+})
 
 
 
